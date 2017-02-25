@@ -16,8 +16,4 @@
         <item name="android:textSize">30sp</item>
         <item name="android:layout_margin">10dp</item>
     </style>
-
-    <style name="RemoteButton.LeftBttns">
-        <item name="android:layout_marginLeft">50dp</item>
-    </style>
 </resources>

@@ -11,9 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
+        android:background="@drawable/window_patch"
         android:gravity="center"
         android:text="0"
-        android:textColor="#343a40"
+        android:textColor="#ffffff"
         android:textSize="50sp"/>
 
     <TextView
@@ -22,12 +23,12 @@
         android:layout_height="0dp"
         android:layout_margin="5dp"
         android:layout_weight="1"
-        android:background="#868e96"
+        android:background="@drawable/bar_patch"
         android:gravity="center"
         android:text="0"
-        android:textColor="#efefef"
+        android:textColor="#2b8a3e"
         android:textSize="30sp"
-        android:textStyle="bold"/>
+        android:textStyle="italic"/>
 
     <include
         layout="@layout/button_row"
