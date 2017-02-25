@@ -3,6 +3,7 @@
              android:id="@+id/fragment_remote_control_tableLayout"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
+             android:background="@drawable/remote_background"
              android:stretchColumns="*">
 
     <TextView
@@ -29,18 +30,19 @@
         android:textStyle="bold"/>
 
     <include
-        android:layout_weight="1"
-        layout="@layout/button_row"/>
+        layout="@layout/button_row"
+        android:layout_weight="1"/>
 
     <include
-        android:layout_weight="1"
-        layout="@layout/button_row"/>
+        layout="@layout/button_row"
+        android:layout_weight="1"/>
 
     <include
-        android:layout_weight="1"
-        layout="@layout/button_row"/>
+        layout="@layout/button_row"
+        android:layout_weight="1"/>
 
     <include
-        android:layout_weight="1"
-        layout="@layout/button_row"/>
+        layout="@layout/button_row"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"/>
 </TableLayout>
